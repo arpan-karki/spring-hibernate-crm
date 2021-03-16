@@ -16,7 +16,9 @@
 	<context:component-scan
 		base-package="com.arpankarki.spring" />
 
+	<!-- This is used to activate various annotations which spring uses lke @Autowired @required -->
 	<context:annotation-config />
+	
 	<!-- This tag is necessary for us to scan Spring MVC annotations within 
 		the class -->
 	<mvc:annotation-driven />
